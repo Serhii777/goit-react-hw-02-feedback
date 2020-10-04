@@ -1,0 +1,20 @@
+.Statistics {
+  display: flex;
+  flex-direction: column;
+ justify-content: left;
+ text-align: left;
+ margin: 0px;
+ padding-left: 150px;
+ line-height: 1.5;
+}
+.Statistics-list {
+  list-style: none;
+  margin: 0px 0px 30px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.Statistics-item {
+    font-weight: 500;
+}
+.Statistics-text {
+    font-weight: bolder;
+}

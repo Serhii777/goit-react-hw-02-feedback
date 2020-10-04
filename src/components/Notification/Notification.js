@@ -1,0 +1,13 @@
+import React from "react";
+import PropTypes from "prop-types";
+import './Notification.css'
+
+const Notification = ({ message }) => <div className="Notification">{message}</div>;
+
+Notification.propTypes = {
+    props: PropTypes.exact({
+      message: PropTypes.string,
+    }),
+  };
+
+export default Notification;
