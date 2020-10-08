@@ -10,4 +10,8 @@ Notification.propTypes = {
     }),
   };
 
+  Notification.defaultProps = {
+    message: '',
+  };
+
 export default Notification;

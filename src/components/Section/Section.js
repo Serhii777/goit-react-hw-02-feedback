@@ -17,4 +17,8 @@ Section.propTypes = {
   }),
 };
 
+Section.defaultProps = {
+  title: "",
+};
+
 export default Section;
