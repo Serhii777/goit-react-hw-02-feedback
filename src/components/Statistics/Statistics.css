@@ -1,20 +1,20 @@
-.Statistics {
+.statistics {
   display: flex;
   flex-direction: column;
  justify-content: left;
  text-align: left;
- margin: 0px;
- padding-left: 150px;
+ max-width: 330px;
+ margin: 0px auto;
  line-height: 1.5;
 }
-.Statistics-list {
+.statistics-list {
   list-style: none;
   margin: 0px 0px 30px 0px;
   padding: 0px 0px 0px 0px;
 }
-.Statistics-item {
+.statistics-item {
     font-weight: 500;
 }
-.Statistics-text {
+.statistics-text {
     font-weight: bolder;
 }

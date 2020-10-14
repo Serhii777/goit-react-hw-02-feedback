@@ -3,14 +3,26 @@ import "./FeedbackOptions.css";
 
 const FeedbackOptions = ({ onLeaveFeedback }) => {
   return (
-    <div className="FeedbackOptions">
-      <button type="button" name="good" onClick={onLeaveFeedback} className="FeedbackOptions-button">
+    <div className="feedback-block">
+      <button
+        type="button"
+        name="good"
+        onClick={onLeaveFeedback}
+        className="feedback-button">
         Good
       </button>
-      <button type="button" name="neutral" onClick={onLeaveFeedback} className="FeedbackOptions-button">
+      <button
+        type="button"
+        name="neutral"
+        onClick={onLeaveFeedback}
+        className="feedback-button">
         Neutral
       </button>
-      <button type="button" name="bad" onClick={onLeaveFeedback} className="FeedbackOptions-button">
+      <button
+        type="button"
+        name="bad"
+        onClick={onLeaveFeedback}
+        className="feedback-button">
         Bad
       </button>
     </div>

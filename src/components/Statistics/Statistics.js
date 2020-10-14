@@ -4,15 +4,15 @@ import "./Statistics.css";
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return (
-    <div className="Statistics">
-      <ul className="Statistics-list">
-        <li className="Statistics-item">Good: {good}</li>
-        <li className="Statistics-item">Neutral: {neutral}</li>
-        <li className="Statistics-item">Bad: {bad}</li>
+    <div className="statistics">
+      <ul className="statistics-list">
+        <li className="statistics-item">Good: {good}</li>
+        <li className="statistics-item">Neutral: {neutral}</li>
+        <li className="statistics-item">Bad: {bad}</li>
       </ul>
 
-      <span className="Statistics-text">Total: {total}</span>
-      <span className="Statistics-text">
+      <span className="statistics-text">Total: {total}</span>
+      <span className="statistics-text">
         Positive feedback: {positivePercentage}%
       </span>
     </div>
